@@ -1,11 +1,15 @@
 package es.deusto.ingenieria.sd.jdo.lab;
 
+import java.util.List;
+
 import javax.jdo.Extent;
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
 import javax.jdo.Query;
 import javax.jdo.Transaction;
+
+
 
 public class Main {
 
@@ -97,17 +101,15 @@ public class Main {
 				    pm.deletePersistent(pago);	
 				}
 				
-				Extent<Registro> extentR = pm.getExtent(Registro.class);
-				
-				for (Registro registro : extentR) {
-				    pm.deletePersistent(registro);	
-				}		
-				
+				//Delete registro
 				Query<Registro> query1 = pm.newQuery(Registro.class);
 				System.out.println(" * '" + query1.deletePersistentAll() + "' Register deleted from the DB.");
-				//Delete addresses from DB
+				//Delete vuelo
 				Query<Vuelo> query2 = pm.newQuery(Vuelo.class);
 				System.out.println(" * '" + query2.deletePersistentAll() + "' Flyes deleted from the DB.");
+				//Delete Reserva
+				Query<Reserva> query3 = pm.newQuery(Reserva.class);
+				System.out.println(" * '" + query3.deletePersistentAll() + "' Reserves deleted from the DB.");
 				
 				System.out.println("Delete DB content: SUCCESFUL");
 
@@ -127,9 +129,8 @@ public class Main {
 			//TODO Falta rellenar para seleccionar algo de una fila de tabla concreta en base a una condici�n
 			try {
 
-
 			} catch (Exception ex) {
-				System.out.println("# Error deleting: " + ex.getMessage());
+				System.out.println("# Error selecting: " + ex.getMessage());
 			} finally {
 			    if (tx.isActive()) {
 			        tx.rollback();
@@ -160,7 +161,7 @@ public class Main {
 
 
 			} catch (Exception ex) {
-				System.out.println("# Error updating: " + ex.getMessage());
+				System.out.println("# Error deleting: " + ex.getMessage());
 			} finally {
 			    if (tx.isActive()) {
 			        tx.rollback();
