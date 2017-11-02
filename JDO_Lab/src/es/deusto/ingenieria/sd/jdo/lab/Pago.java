@@ -12,6 +12,7 @@ class Pago {
 	
 	String numTarjeta=null;
 	double precio=0.0;
+	Reserva reserva;
 
 	public Pago() {
 		super();

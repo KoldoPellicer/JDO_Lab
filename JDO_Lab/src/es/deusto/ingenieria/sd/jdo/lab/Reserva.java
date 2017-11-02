@@ -18,6 +18,7 @@ public class Reserva {
 	int asiento=0;
 	String fSalida=null;
 	String hSalida=null;
+	Pago pago;
 	
 	
 	public Reserva(long codigoR, String dni, int asiento, String fSalida, String hSalida) {

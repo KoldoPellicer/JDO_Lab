@@ -34,11 +34,16 @@ public class Main {
 				
 				
 				tx.begin();
+				System.out.println("Inserting contents into the database ....");
+				
 				//Hace las inserts correspondientes
 				pm.makePersistent(reg);
+				pm.makePersistent(vue);
+				pm.makePersistent(vue2);
+				pm.makePersistent(pag2);
+				pm.makePersistent(reg);
 				
-				
-				System.out.println("Inserting contents into the database ....");
+				System.out.println("Inserting contents into the database: SUCCESFUL");
 				tx.commit();
 			} catch (Exception ex) {
 				System.out.println("# Error storing objects: " + ex.getMessage());				
@@ -54,6 +59,8 @@ public class Main {
 			tx = pm.currentTransaction();
 			
 			try {
+				
+				System.out.println("Showing Flyes...");
 				
 			    tx.begin();
 			    //Me permite almacenar todos los objetos de una sola clase, recupera todo  el contenido de una db
@@ -79,9 +86,30 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			//TODO Falta rellenar para borrar la BD completa
+			// Borra todo el contenido de la DB
 			try {
-
+				
+				System.out.println("Deleting DB content...");
+				
+				Extent<Pago> extentP = pm.getExtent(Pago.class);
+				
+				for (Pago pago : extentP) {
+				    pm.deletePersistent(pago);	
+				}
+				
+				Extent<Registro> extentR = pm.getExtent(Registro.class);
+				
+				for (Registro registro : extentR) {
+				    pm.deletePersistent(registro);	
+				}		
+				
+				Query<Registro> query1 = pm.newQuery(Registro.class);
+				System.out.println(" * '" + query1.deletePersistentAll() + "' Register deleted from the DB.");
+				//Delete addresses from DB
+				Query<Vuelo> query2 = pm.newQuery(Vuelo.class);
+				System.out.println(" * '" + query2.deletePersistentAll() + "' Flyes deleted from the DB.");
+				
+				System.out.println("Delete DB content: SUCCESFUL");
 
 			} catch (Exception ex) {
 				System.out.println("# Error cleaning DB: " + ex.getMessage());
