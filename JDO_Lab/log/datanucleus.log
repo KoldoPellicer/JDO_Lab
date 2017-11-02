@@ -4131,3 +4131,623 @@ org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". 
 02-11-17_13:55:37 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
 02-11-17_13:55:37 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 02-11-17_13:55:37 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:08:29 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:08:29 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:08:30 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:08:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:08:32 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:09:10 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:09:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:09:11 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:09:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:09:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:09:15 (main) INFO  [DataNucleus.JDO] - Exception thrown
+Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+org.datanucleus.exceptions.NucleusUserException: Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processUnboundExpression(QueryToSQLMapper.java:4952)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processEqExpression(QueryToSQLMapper.java:2741)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileRelationalExpression(AbstractExpressionEvaluator.java:80)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileOrAndExpression(AbstractExpressionEvaluator.java:68)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.evaluate(AbstractExpressionEvaluator.java:36)
+	at org.datanucleus.query.expression.Expression.evaluate(Expression.java:338)
+	at org.datanucleus.query.expression.DyadicExpression.evaluate(DyadicExpression.java:75)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compileFilter(QueryToSQLMapper.java:590)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compile(QueryToSQLMapper.java:466)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileQueryFull(JDOQLQuery.java:902)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileInternal(JDOQLQuery.java:364)
+	at org.datanucleus.store.query.Query.performDeletePersistentAll(Query.java:2228)
+	at org.datanucleus.store.query.AbstractJavaQuery.performDeletePersistentAll(AbstractJavaQuery.java:114)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2207)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2164)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2154)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentInternal(JDOQuery.java:514)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentAll(JDOQuery.java:473)
+	at es.deusto.ingenieria.sd.jdo.lab.Main.main(Unknown Source)
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:11:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:11:06 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:11:07 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:11:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:11:08 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:11:10 (main) INFO  [DataNucleus.JDO] - Exception thrown
+Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+org.datanucleus.exceptions.NucleusUserException: Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processUnboundExpression(QueryToSQLMapper.java:4952)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processEqExpression(QueryToSQLMapper.java:2741)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileRelationalExpression(AbstractExpressionEvaluator.java:80)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileOrAndExpression(AbstractExpressionEvaluator.java:68)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.evaluate(AbstractExpressionEvaluator.java:36)
+	at org.datanucleus.query.expression.Expression.evaluate(Expression.java:338)
+	at org.datanucleus.query.expression.DyadicExpression.evaluate(DyadicExpression.java:75)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compileFilter(QueryToSQLMapper.java:590)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compile(QueryToSQLMapper.java:466)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileQueryFull(JDOQLQuery.java:902)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileInternal(JDOQLQuery.java:364)
+	at org.datanucleus.store.query.Query.performDeletePersistentAll(Query.java:2228)
+	at org.datanucleus.store.query.AbstractJavaQuery.performDeletePersistentAll(AbstractJavaQuery.java:114)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2207)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2164)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2154)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentInternal(JDOQuery.java:514)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentAll(JDOQuery.java:473)
+	at es.deusto.ingenieria.sd.jdo.lab.Main.main(Unknown Source)
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:11:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:11:34 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:11:35 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:11:36 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:11:36 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:11:37 (main) INFO  [DataNucleus.JDO] - Exception thrown
+Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+org.datanucleus.exceptions.NucleusUserException: Variable 'codigoR' is unbound and cannot be determined (is it a misspelled field name? or is not intended to be a variable?)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processUnboundExpression(QueryToSQLMapper.java:4952)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.processEqExpression(QueryToSQLMapper.java:2741)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileRelationalExpression(AbstractExpressionEvaluator.java:80)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.compileOrAndExpression(AbstractExpressionEvaluator.java:68)
+	at org.datanucleus.query.expression.AbstractExpressionEvaluator.evaluate(AbstractExpressionEvaluator.java:36)
+	at org.datanucleus.query.expression.Expression.evaluate(Expression.java:338)
+	at org.datanucleus.query.expression.DyadicExpression.evaluate(DyadicExpression.java:75)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compileFilter(QueryToSQLMapper.java:590)
+	at org.datanucleus.store.rdbms.query.QueryToSQLMapper.compile(QueryToSQLMapper.java:466)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileQueryFull(JDOQLQuery.java:902)
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.compileInternal(JDOQLQuery.java:364)
+	at org.datanucleus.store.query.Query.performDeletePersistentAll(Query.java:2228)
+	at org.datanucleus.store.query.AbstractJavaQuery.performDeletePersistentAll(AbstractJavaQuery.java:114)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2207)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2164)
+	at org.datanucleus.store.query.Query.deletePersistentAll(Query.java:2154)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentInternal(JDOQuery.java:514)
+	at org.datanucleus.api.jdo.JDOQuery.deletePersistentAll(JDOQuery.java:473)
+	at es.deusto.ingenieria.sd.jdo.lab.Main.main(Unknown Source)
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:18:58 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:18:59 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:18:59 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:19:00 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:19:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:20:11 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:20:11 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:20:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:20:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:20:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:21:04 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:21:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:21:05 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:21:06 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:21:06 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:21:08 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@ffaa6af" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:23:08 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:23:08 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:23:10 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:23:10 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:23:12 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:24:48 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:24:49 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:24:49 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:24:50 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:24:50 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:24:52 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:26:29 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:26:30 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:26:30 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:26:31 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:26:32 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:26:34 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:27:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:27:12 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:27:12 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:27:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:27:13 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:27:15 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`vuelo_reservas`, CONSTRAINT `VUELO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:31:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:31:32 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:31:34 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:31:34 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:32:23 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:32:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:32:24 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:32:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:32:26 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:33:00 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:33:01 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:33:01 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:33:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:33:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:33:04 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:37:02 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:37:02 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:37:03 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:37:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:37:04 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:37:06 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:41:51 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:41:52 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:41:52 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:41:53 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:41:53 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:42:14 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:42:14 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:42:15 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:42:16 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:42:16 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:44:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:44:24 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:44:25 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:44:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:44:26 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:52:24 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:52:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:52:25 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:52:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:52:26 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:52:28 (main) WARN  [DataNucleus.Datastore.Persist] - Borra del objeto "es.deusto.ingenieria.sd.jdo.lab.Reserva@53ce1329" con SQL "DELETE FROM `RESERVA` WHERE `RESERVA_ID`=?" ha tirado un error : Cannot delete or update a parent row: a foreign key constraint fails (`jdodb`.`registro_reservas`, CONSTRAINT `REGISTRO_RESERVAS_FK2` FOREIGN KEY (`RESERVA_ID_EID`) REFERENCES `reserva` (`RESERVA_ID`))
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:53:22 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:53:22 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:53:24 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:53:24 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.2) para el API "JDO" utilisando el JRE "{2}"
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class" con definicion enhanced
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class" con definicion enhanced
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class" con definicion enhanced
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class" con definicion enhanced
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 4 clases.
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-api-jdo-5.1.2.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-cache-5.1.0-release.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-core-5.1.2.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\datanucleus-rdbms-5.1.2.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\javax.jdo-3.2.0-m7.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\log4j-1.2.14.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\lib\mysql-connector-java-5.1.44.jar
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin
+02-11-17_14:53:32 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\resources
+02-11-17_14:53:32 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autocreateall desconocida - vamos a ignorarla
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Main.class
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Pago.class
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Registro.class
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Reserva.class
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
+02-11-17_14:53:33 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+02-11-17_14:53:34 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla

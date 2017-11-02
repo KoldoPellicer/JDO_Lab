@@ -8,8 +8,7 @@ import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
 import javax.jdo.Query;
 import javax.jdo.Transaction;
-
-
+import javax.swing.plaf.synth.SynthSpinnerUI;
 
 public class Main {
 
@@ -90,7 +89,7 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			//TODO Falta rellenar para seleccionar algo de una fila de tabla concreta en base a una condici�n
+			//Seleccionar algo de una fila de tabla concreta en base a una condici�n
 			try {
 				
 				System.out.println("- Retrieving reserves with code = 2345 using a 'Query'...");			
@@ -131,8 +130,9 @@ public class Main {
 			
 			// TODO Falta rellenar para actualizar una fila de tabla concreta en base a una condici�n
 			try {
-
-
+				
+	
+				 
 			} catch (Exception ex) {
 				System.out.println("# Error updating: " + ex.getMessage());
 			} finally {
@@ -143,9 +143,13 @@ public class Main {
 			    pm.close();
 			}
 			
+			pm = pmf.getPersistenceManager();			
+			tx = pm.currentTransaction();
+			
 			// TODO Falta rellenar para borrar una fila de tabla concreta en base a una condici�n
 			try {
-
+				
+				
 
 			} catch (Exception ex) {
 				System.out.println("# Error deleting: " + ex.getMessage());
@@ -164,7 +168,9 @@ public class Main {
 			 try {
 			
 			 System.out.println("Deleting DB content...");
-			
+			 
+			 tx.begin();
+			 
 			 Extent<Pago> extentP = pm.getExtent(Pago.class);
 			
 			 for (Pago pago : extentP) {
@@ -182,7 +188,8 @@ public class Main {
 			 System.out.println(" * '" + query3.deletePersistentAll() + "' Reserves deleted from the DB.");
 			
 			 System.out.println("Delete DB content: SUCCESFUL");
-			
+			 tx.commit();
+			 
 			 } catch (Exception ex) {
 			 System.out.println("# Error cleaning DB: " + ex.getMessage());
 			 } finally {
