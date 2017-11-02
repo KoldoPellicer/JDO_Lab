@@ -111,7 +111,7 @@ public class Main {
 				tx.commit();
 		
 				for (Reserva r : reservas) {
-					System.out.println(" - " + r.getCodigoR()  + " - " + r.getDni()  + " - " + r.getAsiento() + " - " + r.getfSalida()  + " - " + r.gethSalida());
+					System.out.println(" - " + r.getCodigoR()  + " - " + r.getDni()  + " - " + r.getAsiento() + " - " + r.getFSalida()  + " - " + r.getHSalida());
 				}
 
 			} catch (Exception ex) {
