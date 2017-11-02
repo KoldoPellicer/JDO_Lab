@@ -20,7 +20,9 @@ public class Vuelo {
 	String origen=null;
 	String destino=null;
 	String ccompanya=null;
-
+	@Join
+	List<Reserva> reservas = new ArrayList<Reserva>();
+	
 	public Vuelo(String numVuelo, int aLibres, int aTotales, String origen, String destino, String ccompanya) {
 		this.numVuelo = numVuelo;
 		this.aLibres = aLibres;
@@ -36,5 +38,9 @@ public class Vuelo {
 
 	public void setaLibres(int aLibres) {
 		this.aLibres = aLibres;
+	}
+
+	public List<Reserva> getReservas() {
+		return reservas;
 	}	
 }

@@ -18,33 +18,13 @@ public class Reserva {
 	int asiento=0;
 	String fSalida=null;
 	String hSalida=null;
-	//TODO Las Joins no están bien, no se cómo se une Reserva con pago y vuelo
-	@Join
-	Pago pago;
-	@Join
-	Vuelo vuelo;
-
+	
+	
 	public Reserva(long codigoR, String dni, int asiento, String fSalida, String hSalida) {
 		this.codigoR = codigoR;
 		this.dni = dni;
 		this.asiento = asiento;
 		this.fSalida = fSalida;
 		this.hSalida = hSalida;
-	}
-
-	public void setPago(Pago pago) {
-		this.pago = pago;
-	}
-	
-	public Pago getPago() {
-		return pago;
-	}
-
-	public Vuelo getVuelo() {
-		return vuelo;
-	}
-
-	public void setVuelo(Vuelo vuelo) {
-		this.vuelo = vuelo;
 	}
 }

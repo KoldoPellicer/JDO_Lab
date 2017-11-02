@@ -21,17 +21,18 @@ public class Main {
 				Registro reg = new Registro("Ariane","1234","ariane.fernandez@opendeusto.es");		
 				Reserva res = new Reserva(0123,"01234567X",1,"1-01-2018","11:00");
 				Reserva res2 = new Reserva(2345,"12345678Y",1,"2-02-2018","12:00");
+				Reserva res3 = new Reserva(2345,"23456789Z",1,"3-03-2018","14:00");
 				Vuelo vue = new Vuelo("AB1234",150,500,"Bilbao","Londres","CD01234");
 				Vuelo vue2 = new Vuelo("CD2345",200,400,"Londres","Bilbao","EF23456");
 				Pago pag = new Pago("0123-4567-8901-2345",250);
 				Pago pag2 = new Pago("0123-4567-8901-2345",300);
-				res.setPago(pag);
-				res.setVuelo(vue);
-				res2.setPago(pag2);
-				res2.setVuelo(vue2);
 				reg.getReservas().add(res);	
 				reg.getReservas().add(res2);	
-						
+				vue.getReservas().add(res);
+				vue.getReservas().add(res2);
+				vue.getReservas().add(res3);
+				
+				
 				tx.begin();
 				//Hace las inserts correspondientes
 				pm.makePersistent(reg);
