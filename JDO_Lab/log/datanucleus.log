@@ -3761,3 +3761,242 @@ org.datanucleus.store.query.QueryCompilerSyntaxException: Invalid operator "=". 
 02-11-17_13:11:57 (main) INFO  [DataNucleus.SchemaTool] - >>  C:\Users\Ariane\git\JDO_Lab\JDO_Lab\bin\es\deusto\ingenieria\sd\jdo\lab\Vuelo.class
 02-11-17_13:11:58 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
 02-11-17_13:11:58 (main) INFO  [DataNucleus.Persistence] - Propiedad datanucleus.autoCreateAll desconocida - vamos a ignorarla
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:16:08 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:16:09 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:16:09 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:16:10 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:16:10 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:25:13 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:25:13 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:25:14 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:25:15 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:25:25 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:25:25 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:25:26 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:25:26 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:25:27 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:25:37 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:25:38 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:25:38 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:25:39 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:25:44 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:25:45 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:25:45 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:25:45 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:25:45 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:25:45 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:25:51 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:25:51 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:25:52 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:25:53 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:36:07 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:36:07 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:36:08 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:36:09 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:39:57 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:39:58 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:39:58 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:39:59 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:39:59 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:46:11 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:46:11 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:46:12 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:46:13 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.1.2) for API "JDO"
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class" with enhanced definition
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class" with enhanced definition
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class" with enhanced definition
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class" with enhanced definition
+02-11-17_13:47:03 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes.
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creation of the schema for classes
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-api-jdo-5.1.2.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-cache-5.1.0-release.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-core-5.1.2.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/datanucleus-rdbms-5.1.2.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/javax.jdo-3.2.0-m7.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/log4j-1.2.14.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/lib/mysql-connector-java-5.1.44.jar
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin
+02-11-17_13:47:03 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/resources
+02-11-17_13:47:04 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autocreateall unknown - will be ignored
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Input Files
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Main.class
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Pago.class
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Registro.class
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Reserva.class
+02-11-17_13:47:04 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/koldo/git/JDO_Lab/JDO_Lab/bin/es/deusto/ingenieria/sd/jdo/lab/Vuelo.class
+02-11-17_13:47:05 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool completed successfully
+02-11-17_13:47:05 (main) INFO  [DataNucleus.Persistence] - Property datanucleus.autoCreateAll unknown - will be ignored

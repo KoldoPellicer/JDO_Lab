@@ -16,8 +16,8 @@ public class Reserva {
 	long codigoR;
 	String dni=null;
 	int asiento=0;
-	String fSalida=null;
-	String hSalida=null;
+	String FSalida=null;
+	String HSalida=null;
 	Pago pago;
 	
 	
@@ -25,7 +25,67 @@ public class Reserva {
 		this.codigoR = codigoR;
 		this.dni = dni;
 		this.asiento = asiento;
-		this.fSalida = fSalida;
-		this.hSalida = hSalida;
+		this.FSalida = FSalida;
+		this.HSalida = HSalida;
+	}
+
+
+	public long getCodigoR() {
+		return codigoR;
+	}
+
+
+	public void setCodigoR(long codigoR) {
+		this.codigoR = codigoR;
+	}
+
+
+	public String getDni() {
+		return dni;
+	}
+
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+
+	public int getAsiento() {
+		return asiento;
+	}
+
+
+	public void setAsiento(int asiento) {
+		this.asiento = asiento;
+	}
+
+
+	public String getfSalida() {
+		return FSalida;
+	}
+
+
+	public void setfSalida(String FSalida) {
+		this.FSalida = FSalida;
+	}
+
+
+	public String gethSalida() {
+		return HSalida;
+	}
+
+
+	public void sethSalida(String HSalida) {
+		this.HSalida = HSalida;
+	}
+
+
+	public Pago getPago() {
+		return pago;
+	}
+
+
+	public void setPago(Pago pago) {
+		this.pago = pago;
 	}
 }
