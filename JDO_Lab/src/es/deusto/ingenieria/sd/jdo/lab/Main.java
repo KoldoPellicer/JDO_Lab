@@ -124,7 +124,7 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			//TODO Falta rellenar para borrar una tabla concreta en base a una condici�n
+			//TODO Falta rellenar para seleccionar algo de una fila de tabla concreta en base a una condici�n
 			try {
 
 
@@ -141,7 +141,21 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			// TODO Falta rellenar para actualizar una tabla concreta en base a una condici�n
+			// TODO Falta rellenar para actualizar una fila de tabla concreta en base a una condici�n
+			try {
+
+
+			} catch (Exception ex) {
+				System.out.println("# Error updating: " + ex.getMessage());
+			} finally {
+			    if (tx.isActive()) {
+			        tx.rollback();
+			    }
+	
+			    pm.close();
+			}
+			
+			// TODO Falta rellenar para borrar una fila de tabla concreta en base a una condici�n
 			try {
 
 
