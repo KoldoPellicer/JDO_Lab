@@ -18,8 +18,10 @@ public class Reserva {
 	int asiento=0;
 	String fSalida=null;
 	String hSalida=null;
+	//TODO Las Joins no están bien, no se cómo se une Reserva con pago y vuelo
 	@Join
 	Pago pago;
+	@Join
 	Vuelo vuelo;
 
 	public Reserva(long codigoR, String dni, int asiento, String fSalida, String hSalida) {

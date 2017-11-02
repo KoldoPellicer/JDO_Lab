@@ -19,15 +19,15 @@ public class Vuelo {
 	int aTotales=0;
 	String origen=null;
 	String destino=null;
-	String ccompañia=null;
+	String ccompanya=null;
 
-	public Vuelo(String numVuelo, int aLibres, int aTotales, String origen, String destino, String ccompañia) {
+	public Vuelo(String numVuelo, int aLibres, int aTotales, String origen, String destino, String ccompanya) {
 		this.numVuelo = numVuelo;
 		this.aLibres = aLibres;
 		this.aTotales = aTotales;
 		this.origen = origen;
 		this.destino = destino;
-		this.ccompañia = ccompañia;
+		this.ccompanya = ccompanya;
 	}
 	
 	public int getaLibres() {

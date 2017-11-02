@@ -61,7 +61,7 @@ public class Main {
 				
 				//Saca por pantalla los valores
 			    for (Vuelo v : extentV) {
-			    	System.out.println((cont++) + " - " + v.aLibres  + " - " + v.aTotales  + " - " + v.ccompañia  + " - " + v.destino  + " - " + v.numVuelo  + " - " + v.origen);
+			    	System.out.println((cont++) + " - " + v.aLibres  + " - " + v.aTotales  + " - " + v.ccompanya  + " - " + v.destino  + " - " + v.numVuelo  + " - " + v.origen);
 			    }
 
 			    tx.commit();
@@ -78,7 +78,7 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			//Falta rellenar para borrar la BD completa
+			//TODO Falta rellenar para borrar la BD completa
 			try {
 
 
@@ -95,7 +95,7 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			//Falta rellenar para borrar una tabla concreta en base a una condici�n
+			//TODO Falta rellenar para borrar una tabla concreta en base a una condici�n
 			try {
 
 
@@ -109,7 +109,10 @@ public class Main {
 			    pm.close();
 			}
 			
-			//Falta rellenar para actualizar una tabla concreta en base a una condici�n
+			pm = pmf.getPersistenceManager();			
+			tx = pm.currentTransaction();
+			
+			// TODO Falta rellenar para actualizar una tabla concreta en base a una condici�n
 			try {
 
 
