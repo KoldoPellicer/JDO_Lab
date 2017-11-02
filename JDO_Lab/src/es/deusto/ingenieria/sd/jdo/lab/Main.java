@@ -10,6 +10,7 @@ import javax.jdo.Query;
 import javax.jdo.Transaction;
 import javax.swing.plaf.synth.SynthSpinnerUI;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -102,7 +103,6 @@ public class Main {
 
 				Query<Reserva> query = pm.newQuery(Reserva.class);
 				query.setFilter("codigoR==2345");
-			
 				@SuppressWarnings("unchecked")
 				List<Reserva> reservas = (List<Reserva>) query.execute();
 
@@ -128,10 +128,35 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			// TODO Falta rellenar para actualizar una fila de tabla concreta en base a una condici�n
+			// Actualizar una fila de tabla concreta en base a una condici�n
 			try {
 				
-	
+				System.out.println("- Updating reserves with code = 2345 using a 'Query'...");			
+				//Get the Persistence Manager
+				pm = pmf.getPersistenceManager();
+				//Obtain the current transaction
+				tx = pm.currentTransaction();		
+				//Start the transaction
+				tx.begin();
+
+				Query<Reserva> query = pm.newQuery(Reserva.class);
+				query.setFilter("codigoR==2345");
+				@SuppressWarnings("unchecked")
+				List<Reserva> reservas = (List<Reserva>) query.execute();
+
+				//End the transaction
+				tx.commit();
+		
+				for (Reserva r : reservas) {
+					r.setDni("98765432A");
+					r.setAsiento(4);
+					r.setFSalida("4-04-2018");
+					r.setHSalida("15:00");
+				}
+				
+				System.out.println("Update Reserva with code 2345: SUCCESFUL");
+				
+			
 				 
 			} catch (Exception ex) {
 				System.out.println("# Error updating: " + ex.getMessage());
@@ -146,10 +171,72 @@ public class Main {
 			pm = pmf.getPersistenceManager();			
 			tx = pm.currentTransaction();
 			
-			// TODO Falta rellenar para borrar una fila de tabla concreta en base a una condici�n
+			//Seleccionar algo de una fila de tabla concreta en base a una condici�n
 			try {
 				
+				System.out.println("- Retrieving reserves with code = 2345 using a 'Query'...");			
+				//Get the Persistence Manager
+				pm = pmf.getPersistenceManager();
+				//Obtain the current transaction
+				tx = pm.currentTransaction();		
+				//Start the transaction
+				tx.begin();
+
+				Query<Reserva> query = pm.newQuery(Reserva.class);
+				query.setFilter("codigoR==2345");
+				@SuppressWarnings("unchecked")
+				List<Reserva> reservas = (List<Reserva>) query.execute();
+
+				//End the transaction
+				tx.commit();
+		
+				for (Reserva r : reservas) {
+					System.out.println(" - " + r.getCodigoR()  + " - " + r.getDni()  + " - " + r.getAsiento() + " - " + r.getFSalida()  + " - " + r.getHSalida());
+				}
+
+			} catch (Exception ex) {
+				System.out.println("# Error selecting: " + ex.getMessage());
+			} finally {
+				if (tx != null && tx.isActive()) {
+					tx.rollback();
+				}
 				
+				if (pm != null && !pm.isClosed()) {
+					pm.close();
+				}
+			}
+			
+			
+			pm = pmf.getPersistenceManager();			
+			tx = pm.currentTransaction();
+			
+			// Borrar una fila de tabla concreta en base a una condici�n
+			try {
+				
+				System.out.println("- Deleting pagos with price = 250 ...");			
+				//Get the Persistence Manager
+				pm = pmf.getPersistenceManager();
+				//Obtain the current transaction
+				tx = pm.currentTransaction();		
+				//Start the transaction
+				tx.begin();
+
+				Query<Pago> query = pm.newQuery(Pago.class);
+				@SuppressWarnings("unchecked")
+				List<Pago> pagos = (List<Pago>) query.execute();
+
+				for (Pago p : pagos) {
+				
+					if(p.getPrecio()==250) {
+						 pm.deletePersistent(p);
+					}
+				 
+				}
+				
+				System.out.println("Delete pago with price 250: SUCCESFUL");
+				
+				//End the transaction
+				tx.commit();
 
 			} catch (Exception ex) {
 				System.out.println("# Error deleting: " + ex.getMessage());
@@ -160,17 +247,17 @@ public class Main {
 	
 			    pm.close();
 			}
+	
+			 pm = pmf.getPersistenceManager();
+			 tx = pm.currentTransaction();
 			
-			pm = pmf.getPersistenceManager();			
-			tx = pm.currentTransaction();
-			
-			// Borra todo el contenido de la DB
+			 // Borra todo el contenido de la DB
 			 try {
 			
 			 System.out.println("Deleting DB content...");
-			 
+			
 			 tx.begin();
-			 
+			
 			 Extent<Pago> extentP = pm.getExtent(Pago.class);
 			
 			 for (Pago pago : extentP) {
@@ -182,14 +269,14 @@ public class Main {
 			 System.out.println(" * '" + query1.deletePersistentAll() + "' Register deleted from the DB.");
 			 //Delete vuelo
 			 Query<Vuelo> query2 = pm.newQuery(Vuelo.class);
-			 System.out.println(" * '" + query2.deletePersistentAll() + "' Flyes deleted from the DB.");
+			 System.out.println(" * '" + query2.deletePersistentAll() + "' Flyes delete from the DB.");
 			 //Delete Reserva
 			 Query<Reserva> query3 = pm.newQuery(Reserva.class);
 			 System.out.println(" * '" + query3.deletePersistentAll() + "' Reserves deleted from the DB.");
 			
 			 System.out.println("Delete DB content: SUCCESFUL");
 			 tx.commit();
-			 
+			
 			 } catch (Exception ex) {
 			 System.out.println("# Error cleaning DB: " + ex.getMessage());
 			 } finally {
@@ -199,7 +286,7 @@ public class Main {
 			
 			 pm.close();
 			 }
-			 
+
 			// Cierre del primer try
 			} catch (Exception ex) {
 			ex.printStackTrace(System.err);

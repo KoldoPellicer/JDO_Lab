@@ -14,12 +14,17 @@ class Pago {
 	double precio=0.0;
 	Reserva reserva;
 
-	public Pago() {
-		super();
-	}
-	
 	public Pago(String numTarjeta, double precio) {
 		this.numTarjeta = numTarjeta;
 		this.precio = precio;
 	}
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	
 }
